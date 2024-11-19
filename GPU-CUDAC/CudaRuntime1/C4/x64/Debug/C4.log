@@ -1,0 +1,7 @@
+﻿  Compiling CUDA source file fextest.cu...
+  Skipping CUDA source file kernel.cu (excluded from build).
+  
+  D:\Code CUDA\Demo\CudaRuntime1\C4>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\Visual Studio\Visual Studio IDE\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o "D:\Code CUDA\Demo\CudaRuntime1\C4\x64\Debug\fextest.cu.obj" "D:\Code CUDA\Demo\CudaRuntime1\C4\fextest.cu" 
+  fextest.cu
+  tmpxft_00000784_00000000-7_fextest.cudafe1.cpp
+  C4.vcxproj -> D:\Code CUDA\Demo\CudaRuntime1\x64\Debug\C4.exe
